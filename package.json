@@ -1,0 +1,22 @@
+{
+  "name": "projeto-node",
+  "version": "1.0.0",
+  "description": "projeto de logica de node",
+  "license": "ISC",
+  "author": "Jorge Moura",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prisma": "^6.19.0"
+  }
+}
